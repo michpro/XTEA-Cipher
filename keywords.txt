@@ -1,0 +1,45 @@
+#######################################
+# Syntax Coloring Map For XTEA-Crypt for Arduino
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+XteaCipher	KEYWORD1
+xteaOperation_t	KEYWORD1
+xteaEcbCtx_t	KEYWORD1
+xteaCipherCtx_t	KEYWORD1
+xteaCtx_t	KEYWORD1
+u32_u8_union_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+ecbEncrypt	KEYWORD2
+ecbDecrypt	KEYWORD2
+cfbEncrypt	KEYWORD2
+cfbDecrypt	KEYWORD2
+ofbEncrypt	KEYWORD2
+ofbDecrypt	KEYWORD2
+macCompute	KEYWORD2
+macVerify	KEYWORD2
+macInit	KEYWORD2
+macUpdate	KEYWORD2
+macFinish	KEYWORD2
+macGet	KEYWORD2
+macCmp	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+xtea	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+XTEA_BLOCK_SIZE	LITERAL1
+XTEA_IV_SIZE	LITERAL1
+XTEA_KEY_SIZE	LITERAL1
+XTEA_ROUNDS	LITERAL1
+XTEA_MAC_ROUNDS	LITERAL1
