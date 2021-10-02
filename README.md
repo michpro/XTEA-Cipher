@@ -1,6 +1,10 @@
+[![Arduino CI](https://github.com/michpro/XTEA-Cipher/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![Arduino-lint](https://github.com/michpro/XTEA-Cipher/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/michpro/XTEA-Cipher/actions/workflows/arduino-lint.yml)
+[![GitHub release](https://img.shields.io/github/v/release/michpro/XTEA-Cipher)](https://github.com/michpro/XTEA-Cipher/releases)
+
 # XTEA-Cipher library for Arduino
 
-XTEA cipher library with MAC code calculation support for Arduino environment. Supported encryption modes are: ECB, CFB and OCB and for generating message authentication codes is CFB-MAC. 'C' code of this library was optimized for lowest possible use of program memory. Contrary to reference implementation, base data type is uint8_t[] instead of uint_32_t. 
+XTEA cipher library with MAC code calculation support for Arduino environment. Supported encryption modes are: ECB, CFB and OCB and for generating message authentication codes is CFB-MAC. 'C' code of this library was optimized for lowest possible use of program memory. Contrary to reference implementation, base data type is uint8_t[] instead of uint32_t. 
 
 ---
 
@@ -89,7 +93,7 @@ Source: https://github.com/michpro/XTEA-Cipher
 
 This project is released under MIT License.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/michpro/XTEA-Cipher/blob/master/LICENSE)
 
 # Support
 If You find my projects interesting and You wanted to support my work, You can give me a cup of coffee or a keg of beer :)
